@@ -20,6 +20,13 @@ The game uses the following rules and mechanics:
 
 The game starts when the user clicks the start button. The score is reset to 0, and the first question is generated.
 The difficulty of the questions can be set by the user. Based on the difficulty, the range of the numbers and the operators used in the questions are adjusted.
+
+<img width="1226" alt="Screenshot 2023-07-06 at 9 02 59 pm" src="https://github.com/moeyahmed/mental-math-website/assets/97722511/bdb6f191-92ab-4964-b157-b7946e4963f4">
+
+
+
+
+
 The question is generated as a math equation with a missing component. This missing component could be either of the numbers, the operator or the result.
 The user has to figure out the missing component and type it in the provided input field.
 The user can submit their answer by clicking the submit button.
@@ -35,5 +42,4 @@ updateScore(difficulty): Updates the score based on the difficulty.
 questionGenerator(): Generates a new question based on the difficulty.
 stopGame(resultText): Stops the game when the time is up and displays the final score.
 Event listeners for the start button and the submit button to control the flow of the game.
-Customizing the game
-The game can be customized by modifying the questionGenerator() and updateScore() functions. For instance, you can add more operators, increase the range of the numbers, or adjust the scoring system to fit your needs.
+
