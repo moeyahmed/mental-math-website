@@ -22,26 +22,20 @@ The game uses the following rules and mechanics:
 The game starts when the user clicks the start button. The score is reset to 0, and the first question is generated.
 The difficulty of the questions can be set by the user. Based on the difficulty, the range of the numbers and the operators used in the questions are adjusted.
 
-<img width="1000" alt="Screenshot 2023-07-06 at 9 02 59 pm" src="https://github.com/moeyahmed/mental-math-website/assets/97722511/bdb6f191-92ab-4964-b157-b7946e4963f4">
+<img width="500" alt="Screenshot 2023-07-06 at 9 02 59 pm" src="https://github.com/moeyahmed/mental-math-website/assets/97722511/bdb6f191-92ab-4964-b157-b7946e4963f4">
 
 
 The question is generated as a math equation with a missing component. This missing component could be either of the numbers, the operator or the result.
 The user has to figure out the missing component and type it in the provided input field.
 
-<img width="1000" alt="Screenshot 2023-07-06 at 9 03 13 pm" src="https://github.com/moeyahmed/mental-math-website/assets/97722511/464ba04f-4164-4788-806a-35b1e0016bbc">
-
+<img width="500" alt="Screenshot 2023-07-06 at 9 03 13 pm" src="https://github.com/moeyahmed/mental-math-website/assets/97722511/464ba04f-4164-4788-806a-35b1e0016bbc">
 
 
 The user can submit their answer by clicking the submit button.
 If the user's answer is correct, the score is updated based on the difficulty of the game (1 point for easy, 2 for medium, 3 for hard), and a new question is generated.
 If the user's answer is incorrect, an error message is displayed and a new question is generated.
 The game continues until the time is up (3 minutes). When the time is up, the game ends and the final score is displayed.
-Code structure
-The code consists of multiple functions, each handling a different aspect of the game:
 
-randomValue(min, max): Generates a random number within the given range.
-startTimer(duration, display): Starts the countdown timer.
-updateScore(difficulty): Updates the score based on the difficulty.
 questionGenerator(): Generates a new question based on the difficulty.
 stopGame(resultText): Stops the game when the time is up and displays the final score.
 Event listeners for the start button and the submit button to control the flow of the game.
