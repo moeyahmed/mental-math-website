@@ -35,13 +35,13 @@ function startTimer(duration, display) {
 function updateScore(difficulty) {
   switch(difficulty) {
       case 'easy':
-          score += 5;
+          score += 1;
           break;
       case 'medium':
-          score += 10;
+          score += 2;
           break;
       case 'hard':
-          score += 15;
+          score += 3;
           break;
   }
 }
